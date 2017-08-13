@@ -24,15 +24,6 @@ $(function() {
     }, pause);
     }
     
-    function stopSlider(){
-        clearInterval(interval);
-    }
-    
-    $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
-    
-    //set time
-    //animate fade
-    //last restart
     
     startSlider();
     
